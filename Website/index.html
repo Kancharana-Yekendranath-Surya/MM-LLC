@@ -24,14 +24,14 @@
         <div class="vehicle-container">
             <div class="vehicle" onclick="redirectTo('grand-wagoneer.html')">
                 <div class="year-selector">
-                    <span onclick="clickonyear()">2023</span>
-                    <span class="active">2024</span>
+                    <span onclick="clickonyear()" id="year3">2023</span>
+                    <span class="active" id="year2">2024</span>
                 </div>
                 
                 <div class="vehicle-info">
                     <h2>GRAND WAGONEER</h2>
-                   <img  src="grand-wagoneer.avif" alt="Grand Wagoneer">
-                   <pre><h2>$91,945 &nbsp; &nbsp;    4 </h2></pre>
+                   <img  src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/configurator/2024/MY24-Grand-Wagoneer-Shopping-Tools-All-Breakpoints_v2.jpg" alt="Grand Wagoneer" id="img_1">
+                   <pre><h2 id="price1">$91,945 &nbsp; &nbsp;    4 </h2></pre>
                    <p>&nbsp;&nbsp;MSRP* Starting At &nbsp; &nbsp;    Models to Build</p>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                 
                 <div class="vehicle-info">
                     <h2>WAGONEER</h2>
-                    <img src="wagoneer.avif" alt="Wagoneer">
+                    <img src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/configurator/2024/MY24-Wagoneer-Shopping-Tools-All-Breakpoints_v2.jpg" alt="Wagoneer">
                     <pre><h2>$62,945 &nbsp; &nbsp;    4 </h2></pre>
                     <p>&nbsp;&nbsp;MSRP* Starting At &nbsp; &nbsp;    Models to Build</p>
                 </div>
@@ -58,53 +58,62 @@
                     <h2>GRAND CHEROKEE</h2>
                     <img src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/configurator/Jeep-MY24-Grand-Cherokee-Build-and-Price.jpg" alt="Grand Cherokee">
 
-                    <pre><h2>$36,495 &nbsp; &nbsp;    9 </h2></pre>
+                    <pre><h2 >$36,495 &nbsp; &nbsp;    9 </h2></pre>
                    <p>&nbsp;&nbsp;MSRP* Starting At &nbsp; &nbsp;    Models to Build</p>
                 </div>
             </div>
         </div>
         <div class="vehicle-container">
-            <div class="vehicle" onclick="redirectTo('grand-wagoneer.html')">
+            <div class="vehicle" onclick="redirectTo('grand-Cherokee-4xe.html')">
                 <div class="year-selector">
                     <span>2023</span>
                     <span class="active">2024</span>
                 </div>
                
                 <div class="vehicle-info">
-                    <h2>GRAND WAGONEER</h2>
-                    <img src="grand-wagoneer.avif" alt="Grand Wagoneer">
-                    <pre><h2>$91,945 &nbsp; &nbsp;    4 </h2></pre>
+                    <h2>GRAND CHEROKEE 4xe</h2>
+                    <img src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/configurator/Jeep-MY24-Grand-Cherokee-4xe-Build-and-Price.jpg" alt="Grand Wagoneer">
+                    <pre><h2>$60,490 &nbsp; &nbsp;   7 </h2></pre>
                    <p>&nbsp;&nbsp;MSRP* Starting  At &nbsp; &nbsp;    Models to Build</p>
                 </div>
             </div>
-            <div class="vehicle" onclick="redirectTo('wagoneer.html')">
+            <div class="vehicle" onclick="redirectTo('wrangler.html')">
                 <div class="year-selector">
                     <span>2023</span>
                     <span class="active">2024</span>
                 </div>
                 
                 <div class="vehicle-info">
-                    <h2>WAGONEER</h2>
-                    <img  src="wagoneer.avif" alt="Wagoneer">
-                    <pre><h2>$62,945 &nbsp; &nbsp;    4 </h2></pre>
+                    <h2>WRANGLER</h2>
+                    <img  src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/configurator/MY24-Wrangler-Build-and-Price.jpg" alt="Wagoneer">
+                    <pre><h2>$31,995 &nbsp; &nbsp;    8 </h2></pre>
                     <p>&nbsp;&nbsp;MSRP* Starting At &nbsp; &nbsp;    Models to Build</p>
                 </div>
             </div>
-            <div class="vehicle" onclick="redirectTo('grand-cherokee.html')">
+            <div class="vehicle" onclick="redirectTo('compass.html')">
                 <div class="year-selector">
                     <span>2023</span>
                     <span class="active">2024</span>
                 </div>
                 <div class="vehicle-info">
-                    <h2>GRAND CHEROKEE</h2>
-                    <img src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/configurator/Jeep-MY24-Grand-Cherokee-Build-and-Price.jpg" alt="Grand Cherokee">
+                    <h2>COMPASS</h2>
+                    <img src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/configurator/2024/MY23-Compass-Shopping-Tools-Hero-Vsp-All-Breakpoints.jpg" alt="Grand Cherokee">
 
-                    <pre><h2>$36,495 &nbsp; &nbsp;    9 </h2></pre>
+                    <pre><h2>$25,900 &nbsp; &nbsp;    5 </h2></pre>
                     <p>&nbsp;&nbsp;MSRP* Starting At &nbsp; &nbsp;    Models to Build</p>
                 </div>
             </div>
         </div>
     </div>
-    <script src="script1.js"></script>
+    <script>
+        
+        let year1 = document.getElementById("year1");
+        let year2 = document.getElementById("year2");
+        let img_1 = document.getElementById("img_1");
+        let price1 = document.getElementById("price1");
+
+
+    </script>
+    <script src="scripts.js"></script>
 </body>
 </html>
