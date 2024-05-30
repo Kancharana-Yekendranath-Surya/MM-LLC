@@ -1,0 +1,25 @@
+{
+    "vehicles": [
+        {
+            "name": "GRAND WAGONEER",
+            "price": "$91,945",
+            "models": "4 Models to Build",
+            "image": "grand-wagoneer.jpg",
+            "link": "grand-wagoneer.html"
+        },
+        {
+            "name": "WAGONEER",
+            "price": "$62,945",
+            "models": "4 Models to Build",
+            "image": "wagoneer.jpg",
+            "link": "wagoneer.html"
+        },
+        {
+            "name": "GRAND CHEROKEE",
+            "price": "$36,495",
+            "models": "9 Number of Models",
+            "image": "grand-cherokee.jpg",
+            "link": "grand-cherokee.html"
+        }
+    ]
+}
