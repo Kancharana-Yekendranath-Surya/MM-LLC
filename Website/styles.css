@@ -81,12 +81,11 @@ body {
 }
 
 .vehicle img {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: auto;
     object-fit: cover;
 }
 
 .vehicle-info {
     margin-top: 10px;
 }
-
