@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Selector</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Page2.css">
+    <script src="Page2.js"></script>
+</head>
+<body>
+<div>
+    <h1>Select Your Wagoneer</h1>
+    <p id="mmllc">Pricing and product availability may vary between website and dealer. Pricing shown is nonbinding and does not constitute an offer. All features and options may not be currently available. Please contact your dealer for updated vehicle pricing and product availability.</p>
+</div>
+<div class="container">
+    <div class="car-container">
+        <!-- Car 1 -->
+        <div class="car-card" onclick="setCarData(Wagoneer)">
+            <a href="build_wagoneer.html">
+                <img src="car1.png" alt="Wagoneer" class="car-image">
+            </a>
+            <h3>Wagoneer</h3>
+            <p>MSRP* starting at $65,945</p>
+            <p>Lease estimate $738 monthly for 36 mo.</p>
+            <div class="drive-toggle btn-group" role="group" aria-label="Drive Toggle">
+                <button type="button" class="btn btn-outline-secondary btn-drive active" id="drive1-4x4" onclick="toggleDrive('drive1', '4x4')">4x4</button>
+                <button type="button" class="btn btn-outline-secondary btn-drive" id="drive1-4x2" onclick="toggleDrive('drive1', '4x2')">4x2</button>
+            </div>
+            <div>
+                <label for="wheelbase1">Standard or Long Wheelbase "L"</label>
+                <select class="form-control" id="wheelbase1">
+                    <option value="Standard">Standard</option>
+                    <option value="Wagoneer L">Wagoneer L</option>
+                </select>
+            </div>
+            <a href="build_wagoneer.html" class="btn btn-primary">BUILD</a>
+        </div>
+
+        <!-- Car 2 -->
+        <div class="car-card">
+            <a href="build_series_ii.html">
+                <img src="car2.png" alt="Series II" class="car-image">
+            </a>
+            <h3>Series II</h3>
+            <p>MSRP* starting at $75,825</p>
+            <p>Lease estimate $969 monthly for 42 mo.</p>
+            <div class="drive-toggle btn-group" role="group" aria-label="Drive Toggle">
+                <button type="button" class="btn btn-outline-secondary btn-drive active" id="drive2-4x4" onclick="toggleDrive('drive2', '4x4')">4x4</button>
+                <button type="button" class="btn btn-outline-secondary btn-drive" id="drive2-4x2" onclick="toggleDrive('drive2', '4x2')">4x2</button>
+            </div>
+            <div>
+                <label for="wheelbase2">Standard or Long Wheelbase "L"</label>
+                <select class="form-control" id="wheelbase2">
+                    <option value="Standard">Standard</option>
+                    <option value="Wagoneer L">Wagoneer L</option>
+                </select>
+            </div>
+            <a href="build_series_ii.html" class="btn btn-primary">BUILD</a>
+        </div>
+
+        <!-- Car 3 -->
+        <div class="car-card">
+            <a href="build_carbide.html">
+                <img src="car3.png" alt="Carbide" class="car-image">
+            </a>
+            <h3>Carbide</h3>
+            <p>MSRP* starting at $79,520</p>
+            <p>Lease estimate $1,014 monthly for 42 mo.</p>
+            <div class="drive-toggle btn-group" role="group" aria-label="Drive Toggle">
+                <button type="button" class="btn btn-outline-secondary btn-drive active" id="drive3-4x4" onclick="toggleDrive('drive3', '4x4')">4x4</button>
+                <button type="button" class="btn btn-outline-secondary btn-drive" id="drive3-4x2" onclick="toggleDrive('drive3', '4x2')">4x2</button>
+            </div>
+            <div>
+                <label for="wheelbase3">Standard or Long Wheelbase "L"</label>
+                <select class="form-control" id="wheelbase3">
+                    <option value="Standard">Standard</option>
+                    <option value="Wagoneer L">Wagoneer L</option>
+                </select>
+            </div>
+            <a href="build_carbide.html" class="btn btn-primary">BUILD</a>
+        </div>
+
+        <!-- Car 4 -->
+        <div class="car-card">
+            <a href="build_series_iii.html">
+                <img src="car4.png" alt="Series III" class="car-image">
+            </a>
+            <h3>Series III</h3>
+            <p>MSRP* starting at $89,320</p>
+            <p>Lease estimate $1,067 monthly for 42 mo.</p>
+            <div class="drive-toggle btn-group" role="group" aria-label="Drive Toggle">
+                <button type="button" class="btn btn-outline-secondary btn-drive active" id="drive4-4x4" onclick="toggleDrive('drive4', '4x4')">4x4</button>
+                <button type="button" class="btn btn-outline-secondary btn-drive" id="drive4-4x2" >4x2</button>
+            </div>
+            <div>
+                <label for="wheelbase4">Standard or Long Wheelbase "L"</label>
+                <select class="form-control" id="wheelbase4">
+                    <option value="Standard">Standard</option>
+                    <option value="Wagoneer L">Wagoneer L</option>
+                </select>
+            </div>
+            <a href="build_series_iii.html" class="btn btn-primary">BUILD</a>
+        </div>
+    </div>
+</div>
+
+<script src="Page2.js">
+ 
+</script>
+
+</body>
+</html>

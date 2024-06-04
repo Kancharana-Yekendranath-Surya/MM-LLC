@@ -1,0 +1,74 @@
+.car-container {
+            display: flex;
+            justify-content: auto;
+            margin-top: 50px;
+        }
+        .car-card {
+            text-align: center;
+        }
+        .car-image {
+            width: 100%;
+            height: 100%;
+        }
+        .drive-toggle {
+            margin: 10px 0;
+        }
+        .btn-drive {
+            width: 70px;
+        }
+        .car-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .car-card {
+            text-align: center;
+        }
+        .car-image {
+            width: 100%;
+            height: auto;
+        }
+        .drive-toggle {
+            margin: 10px 0;
+        }
+        .btn-drive {
+            width: 70px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+        .btn-drive.active {
+            background-color: #0056b3;
+        }
+        .dropdown-container {
+            position: relative;
+        }
+        .dropdown-container select {
+            padding-right: 35px;
+        }
+        .dropdown-container:after {
+            content: '▼';
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            pointer-events: none;
+            background-color: #007bff;
+            color: white;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        .btn-primary .arrow {
+            margin-left: 10px;
+        }
+        .dropdown-container + .dropdown-container {
+            margin-top: 15px;
+        }
+        h1,p{
+            text-align:center;
+        }
+        #mmllc{
+            padding:20px;
+            padding-left:40px;
+            padding-right:40px;
+        }
